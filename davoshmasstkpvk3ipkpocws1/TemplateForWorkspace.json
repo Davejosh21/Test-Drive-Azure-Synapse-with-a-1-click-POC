@@ -1095,8 +1095,8 @@
 				"annotations": [],
 				"type": "PowerBIWorkspace",
 				"typeProperties": {
-					"workspaceID": "",
-					"tenantID": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+					"workspaceID": "b763c246-9fed-4cad-a94c-dd86410688da",
+					"tenantID": "af1dc77d-bb66-41f4-b963-c53a62abac41"
 				}
 			},
 			"dependsOn": []
@@ -1643,12 +1643,12 @@
 					"delayInMinutes": 15
 				},
 				"autoScale": {
-					"enabled": true,
-					"maxNodeCount": 40,
-					"minNodeCount": 3
+					"enabled": false,
+					"maxNodeCount": 0,
+					"minNodeCount": 0
 				},
-				"nodeCount": 5,
-				"nodeSize": "Small",
+				"nodeCount": 3,
+				"nodeSize": "Medium",
 				"nodeSizeFamily": "MemoryOptimized",
 				"sparkVersion": "2.4",
 				"isComputeIsolationEnabled": false,
